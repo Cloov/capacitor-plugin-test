@@ -13,7 +13,7 @@ export class HomePage {
     let args = { left: "Exce", right: "llent" };
 
     Plugins.Concatenate.concat(args).then(result => {
-      console.log("Concatenated string: " + result);
+      console.log("Concatenated string: ", result.concatenatedString);
     });
 
   }
