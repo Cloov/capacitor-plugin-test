@@ -9,11 +9,11 @@ import { Plugins } from '@capacitor/core';
 export class HomePage {
 
   constructor(public navCtrl: NavController) {
+
     let args = { left: "Exce", right: "llent" };
+
     Plugins.Concatenate.concat(args).then(result => {
-      console.log("Concatenate.echo() result: ", result);
-    }, error => {
-      console.log("Concatenate.echo() error: ", error);
+      console.log("Concatenated string: " + result);
     });
 
   }
