@@ -1,0 +1,7 @@
+{
+  "appId": "com.cloov.capacitorplugintest",
+  "appName": "capacitor-plugin-test",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www"
+}
